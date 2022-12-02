@@ -5,7 +5,7 @@ using Infrastructure.Interfaces;
 
 namespace Infrastructure.Repositories
 {
-    internal class AlbumRepository : Repository<Album>, IRepository<Album>
+    public class AlbumRepository : Repository<Album>, IRepository<Album>
     {
         public AlbumRepository(Context context) : base(context)
         {

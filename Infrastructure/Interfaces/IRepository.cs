@@ -1,10 +1,8 @@
-﻿
-
-using Domain.Entities;
+﻿using Domain.Entities;
 
 namespace Infrastructure.Interfaces
 {
-    internal interface IRepository<T>where T: Entity
+    public interface IRepository<T>where T: Entity
     {
         Task<T> Select(int id);
 
@@ -15,7 +13,5 @@ namespace Infrastructure.Interfaces
         Task<T> Insert(T entity);
 
         Task<T> Update(T entity);
-
-
     }
 }

@@ -3,7 +3,7 @@ using Domain.Entities;
 
 namespace Infrastructure.Interfaces
 {
-    internal interface IMusicRepository : IRepository<Music>
+    public interface IMusicRepository : IRepository<Music>
     {
 
     }

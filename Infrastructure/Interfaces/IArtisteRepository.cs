@@ -3,7 +3,7 @@
 
 namespace Infrastructure.Interfaces
 {
-    internal interface IArtisteRepository : IRepository<Artiste>
+    public interface IArtisteRepository : IRepository<Artiste>
     {
     }
 }
